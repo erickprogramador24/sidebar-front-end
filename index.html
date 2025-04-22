@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <span class="logo">Menu</span>
+            <button id="toggleSidebar" class="sidebar-toggle">
+                <span class="material-icons">chevron_left</span>
+            </button>
+        </div>
+        
+        <nav class="sidebar-nav">
+            <ul>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">
+                        <span class="material-icons nav-icon">home</span>
+                        <span class="nav-text">Inicio</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons nav-icon">person</span>
+                        <span class="nav-text">Perfil</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons nav-icon">settings</span>
+                        <span class="nav-text">Configuración</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons nav-icon">email</span>
+                        <span class="nav-text">Mensajes</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons nav-icon">folder</span>
+                        <span class="nav-text">Archivos</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="sidebar-footer">
+            <button id="themeToggle" class="theme-toggle">
+                <span class="material-icons theme-icon">brightness_4</span>
+                <span class="theme-text">Modo oscuro</span>
+            </button>
+            
+            <div class="developer-footer">
+                DESARROLLADO POR ERICK PROGRAMADOR
+            </div>
+        </div>
+    </aside>
+    
+    <script src="script.js"></script>
+</body>
+</html>
